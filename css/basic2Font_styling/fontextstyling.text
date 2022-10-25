@@ -1,0 +1,17 @@
+font-family     : mengatur jenis font yang akan digunakan
+font-size       : mengatur ukuran font
+font-weight     : mengatur ketebalan font
+font-variant    : mengubah font menjadi small caps 
+font-style      : mengubah font menjadi bercetak miring
+line-heigh      : mengatur spasi antar baris   
+
+color           : memberi warna pada tulisan
+(bisa pake rgb, hexadecimal, )
+text-align      : mengatur format pargraf/teks
+text-indent     : mengatur identasi pada paragraf/teks
+text-decoration : mengatur dekorasi pada 
+text-transfrom  : mengubah jenis huruf menjadi huruf besar, kecil/kapital  (uppercase, lowercase, capitalize)
+letter-spacing  : mengatur spasi antar huruf
+word-spacing    : mengatur spasi antar kata 
+
+

@@ -1,0 +1,37 @@
+h1 {
+
+    /* font styling */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-style: oblique;
+
+    /* text styling */
+    color: orange;
+}
+
+p {
+    /* font styling */
+    font-family: georgia, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 50px;
+
+    /* text styling */
+    text-align: center;
+    text-indent: 100px;
+    text-decoration: overline;
+    /* text-decoration biasanya digunakan buat ngeliangin garis bahas di link */
+    word-spacing: 15px;
+}
+
+/* body {
+    font : italic normal bold 16px/18px helvetica, arial, sans-serif;
+}
+harus berurut :
+1. font-style
+2. Font-variant
+3. Font-weight
+4. font-size
+5. line-height
+6. font-family 
+    */

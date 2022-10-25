@@ -1,0 +1,36 @@
+CSS 
+
+selector {property : value;}
+example : 
+
+h1 {color : blue;}
+h1 	= selector
+color 	= property
+bllue 	= value
+
+example 2:
+h1 {
+font-family 	:"courier new";
+text-align	:center;
+font-size	:30px;
+color		:blue;
+}
+
+-----------------------
+selector : 
+-digunakan untuk memilih dan memanipulasi elemen spesifik pada HTML 
+-elemen HTML dipilih berdasarkan tag, id, class, bahkan pola/pattern
+-smakin kompleks struktur HTML, semakin kompleks juga struktur selector 
+
+h1{ color :blue;}
+membaca seperti : CSS, pilih seluruh elemen h1, lalu ubah teks didalamnya menjadi berwarna biru 
+
+-----------------------
+Penempatan CSS 
+-embed(ini di taruh di head) <style></style>
+-inline (masih di dalam file yang sama, tapi langsung direct ke HTML menggunakan atribut style)
+External (buat satu folder untuk cssnya aja) <link rel="stylesheet" href="#">
+
+
+
+
