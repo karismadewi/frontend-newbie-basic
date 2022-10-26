@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Layouting : Display</title>
+		<style>
+			.image {
+				width: 20%;
+			}
+			.navigasi {
+				background-color: blanchedalmond;
+			}
+
+			.main {
+				width: 600px;
+				background-color: aqua;
+			}
+
+			.main span {
+				background-color: lightcoral;
+			}
+
+			.main h2 {
+				background-color: lightseagreen;
+			}
+
+			a {
+				background-color: lightgoldenrodyellow;
+			}
+
+			a:nth-child(3) {
+				display: inline-block;
+				width: 200px;
+				height: 200px;
+				background-color: lightgreen;
+			}
+
+			h1,
+			h2 {
+				/* comtoh display : block */
+				background-color: lightsalmon;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>Selamat datang di Website Kami</h1>
+		</div>
+		<div class="navigasi">
+			<h2>daftar Link</h2>
+			<!-- contoh dari display inline.  -->
+			<a href="#">Ini adalah link pertama</a>
+
+			<!-- contoh dari display inline block yang secara manual diubah oleh kita (aku) -->
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+		</div>
+
+		<div class="main">
+			<h2>Judul Artikel</h2>
+			<img src="rain.jpeg" alt="unberella" class="image" />
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorem magni distinctio ad
+				magnam dolorum, optio dignissimos et ipsum molestiae ut soluta fuga possimus voluptatibus
+				similique temporibus nesciunt? Nisi, odio.
+				<span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span> Harum, suscipit
+				totam assumenda non iure ab fugiat itaque similique corporis odit laborum iusto quaerat
+				minus ipsa quasi mollitia officiis earum accusantium.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, explicabo impedit neque
+				laudantium maxime, nihil quam amet iste distinctio maiores enim saepe odio minus
+				reprehenderit soluta suscipit atque, nobis magnam!Lorem
+			</p>
+		</div>
+		<div class="copyright">
+			<p>Copyright 2022. Karisma Dewi</p>
+		</div>
+	</body>
+</html>

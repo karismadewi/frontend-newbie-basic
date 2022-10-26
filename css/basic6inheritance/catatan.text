@@ -1,0 +1,6 @@
+inheritance (pewarisan)
+sebuah elemen mewarisi beberapa nilai dari porperti yang dimiliki oleh elemen parent-nya 
+elemen <a> tidak mewarisi nilai dari properti color 
+
+specificity 
+setiap deklarasi css (selector) memiliki berat yang berbeda
