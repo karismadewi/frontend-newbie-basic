@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dimensi dan Overflow</title>
+		<style>
+			.first {
+				width: 200px;
+				height: 200px;
+				background-color: lightblue;
+			}
+
+			.second {
+				width: 100%;
+				height: 200px;
+				background-color: aquamarine;
+				/* overflow: auto; */
+			}
+
+			.third {
+				width: 200px;
+				height: 200px;
+				background-color: bisque;
+				overflow: auto;
+			}
+
+			.fourth {
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			.ofirst {
+				background: lightblue;
+				width: 200px;
+				height: 200px;
+				overflow: hidden;
+			}
+
+			.osecond {
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			.othird {
+				background: lightcyan;
+				width: 200px;
+				height: 200px;
+				overflow: scroll;
+			}
+
+			.ofourth {
+				font-family: "Courier New", Courier, monospace;
+			}
+
+			/* kalo membuat elemen lain yang lebih besar daripada elemen parentsnya, maka elemen anakannya bakalan keluar dari elemen parents. 
+            maka karna itu, kita perlu overflow */
+		</style>
+	</head>
+	<body>
+		<div class="first">Hello World</div>
+		<div class="second">Hi Karisma</div>
+
+		<div class="third">
+			<div class="fourth">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla ea a nihil quaerat
+				repellendus eos fuga? Placeat tempora molestiae, est accusantium consequuntur ex. Porro quo
+				placeat assumenda quasi quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+				facere, fuga inventore doloremque soluta eaque a similique aliquid sapiente omnis iusto iure
+				maiores? Quaerat maxime, inventore a accusamus provident harum!Lorem Lorem ipsum dolor sit
+				amet consectetur adipisicing elit. Necessitatibus voluptates inventore aliquid commodi odio
+				consequatur maiores, dignissimos fugiat vero veritatis perspiciatis ex laudantium
+				repudiandae magni numquam cum nostrum quaerat itaque. Lorem ipsum, dolor sit amet
+				consectetur adipisicing elit. Consectetur eius dolorum enim corrupti, architecto atque
+				accusantium nobis ad soluta totam rem consequatur id. Ipsam blanditiis expedita repellendus
+				ducimus modi eum.
+
+				<!-- contoh dari child yang keluar dari elemen parents -->
+				<!-- maka dari itu kita perlu elemen parents -->
+			</div>
+		</div>
+		<br /><br /><br />
+		<div class="ofirst">
+			<div class="osecond">
+				<!-- contoh content yang menggunakan overflow hidden. Konten disembunyikan dan tidak dapat diakses -->
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi animi officiis
+				doloribus expedita maiores perferendis tenetur cupiditate in consequuntur facilis corporis
+				vel temporibus itaque assumenda, repellendus, molestiae aperiam rem! Lorem ipsum dolor sit
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quae, aliquid, similique
+				recusandae eius illum quos tempora beatae voluptas unde sapiente quam architecto. Molestias
+				nulla ab alias animi commodi porro!
+			</div>
+		</div>
+		<br /><br /><br />
+		<div class="othird">
+			<div class="ofourth">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ab ea ad ullam quis.
+			</div>
+		</div>
+	</body>
+</html>

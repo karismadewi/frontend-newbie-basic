@@ -36,3 +36,15 @@ contoh elemen block : h1-h6, p, ol, ul, li, form, hr, div,
 
 // li tu digunakan biasanya buat navbar supaya dia masuk satu list, jadi lebih rapi. Nah li itu kan block, kalo nanti navbarnya kesamping, 
 kita bisa ngubah displaynya jadi inline. 
+
+--------------------------------------------
+CSS Dimensi 
+1. Width & height (px, %, (in, cm, mm, pt, pc))
+- px (absolute)
+- % (relative) relatif terhadap parents
+- in, cm, mm, pt, pc (Satuan dari dunia nyata:v seriusan)
+
+2. Overflow
+- visible (default) 
+- auto (CSS secara otomatis menambahkan scroll )
+- hidden (content yang keluar dari parentnya tidak bisa diakses, atau disembunyikan)
