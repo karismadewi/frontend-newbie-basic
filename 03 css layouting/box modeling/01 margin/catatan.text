@@ -1,0 +1,40 @@
+CSS Box model konsep 
+-----------------------------
+CSS box model mendefinisikan kotak yang dihasilkan oleh sebuah elemen, lalu menampilkan sesuai dengan format visualnya. 
+CSS box model terdiri dari : margin, border, padding, dan content
+1 Margin    : area transparan di sekitar kotak (di luar border)
+2 Padding   : area transparan di dalam kotak (antara content dan border)
+3 border    : Batas disekeliling content dan padding
+4 content   : konten sebenarnya di dalam box, bisa berupa teks atau gambar
+
+-----------------------
+margin
+-----------------------
+border
+-----------------------
+Padding
+-----------------------
+Content
+
+
+overlapping margin : menggabungkan dua buah margin
+
+catatan :
+-margin tidak saling menambahkan khusus yang vertikal
+- kalau ada margin yang ketemu gitu secara vertikal
+- kalau horizontal, ketika dua margin bertemu, akan saling menambahkan
+
+negatif margin = buat elemennya ke atas atau ke samping kiri kanan sampe ga bisa di akses
+tergantung sama nilai margin yang diinput 
+
+margin : auto 
+---> jadi ke tengah tengah dari parentsnya 
+kalo semisal parentnya body, jadi berada di tengah tengah body
+di tengah tengah ini tu maksudnya secara horizontal aja bukan vertikal 
+
+
+shorthand : cara menyingkat margin 
+
+margin : atas-bawah kiri-kanan = untuk dua nilai margin yang disingkat
+margin : atas kiri-kanan bawah = untuk tiga nilai margin yang disingkat
+margin : atas kanan bawah kiri (searah jarum jam) = untuk empat margin yang berbeda dan di singkat

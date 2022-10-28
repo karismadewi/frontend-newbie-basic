@@ -48,3 +48,4 @@ CSS Dimensi
 - visible (default) 
 - auto (CSS secara otomatis menambahkan scroll )
 - hidden (content yang keluar dari parentnya tidak bisa diakses, atau disembunyikan)
+- scroll (lumayan sama kayak auto, tapi waktu kontennya dikit dan masih memenuhi, scroll nya tetep ada.)
