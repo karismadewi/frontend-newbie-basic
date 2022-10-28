@@ -1,0 +1,35 @@
+.container {
+    width: 600px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+
+    /* mgakalin float : overflow */
+    /* overflow: auto; */
+    /* bukan solusi yang paling tepat, taapi cuman buat cara ngakalinnya aja */
+
+    /* kedua : clear */
+}
+
+
+img {
+    float: left;
+    margin: 5px;
+    width: 20%;
+}
+
+/* kalo mau gambarnya di kanan
+
+img {
+    float: right;
+    margin: 5px;
+    width: 20%;
+} */
+
+
+/* kedua : make clear buat ngehentiin float harus di taruh
+setelah tulisan karna di sana di berhentiin */
+
+.clear {
+    clear: left;
+}
